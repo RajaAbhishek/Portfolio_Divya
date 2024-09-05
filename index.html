@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Website</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/dp.png">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<!--<div class="logo">D</div>-->
+			<div class="logo-text">Divya</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#home">About Me</a>
+				</li>
+				<li>
+					<a href="#works">Case Studies</a>
+				</li>
+				<!--<li>
+					<a href="#about">About</a>
+				</li>-->
+				<li>
+					<a href="#illustrations">Illustrations</a>
+				</li>
+				<li>
+					<a href="#testimonials">Linkedin</a>
+				</li>
+				<li>
+					<a href="#testimonials">Resume</a>
+				</li>
+				<!--<li>
+					<a href="mailto:shek7373@gmail.com" class="button">Contact Me</a>
+				</li>-->
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<!--
+		<section id="home" class="home">
+			<div class="home-hero">
+				<div class="center-text">
+					<h3>
+						User Experience Designer
+					</h3>
+					<p>
+						Based in New york , NY, I have a strong background in building and maintaining design systems that support both design and development teams. As a User Experience Designer , I specialize in providing comprehensive design solutions and addressing complex challenges by aligning cross-functional teams towards user-centric and strategic business objectives. My expertise in understanding the problem space, combined with a Master's degree in Human-Centered Design, ensures that user needs are at the core of every design decision.</span>
+					</p>
+				</div>
+			</div>
+		</section>
+		-->
+		<section id="about" class="hero container">
+			<!--<h3>
+				About
+			</h3>-->
+			<div class ="tiles">
+				<div class="hero-yellow">
+					<img src="./imgs/dp.png" alt="Divya Boini" width="60%" height="auto" />
+				</div>
+				<div class="hero-blue">
+					<div>
+						<h3 class="hello">
+							Hello, Nice to meet you!
+						</h3>
+						<p class="intro">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus lacus eget nulla bibendum, sed
+            				aliquam ligula pulvinar. Morbi auctor augue a fermentum tristique.</span>
+						</p>
+						<!--
+						<div class="call-to-action">
+							<a href="./Sample_Resume_Template.pdf" class="button black">
+								View Resume
+							</a>
+							<a href="mailto:shek7373@gmail.com" class="button white">
+								Contact Me
+							</a>
+						</div>
+						<div class="social-links">
+							<a href="https://www.linkedin.com/in/divya-boini-6b42341b9/">
+								<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+							</a>
+						</div>
+						-->
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<!--
+		<section id="skills" class="skills container">
+			<h3>
+				<small>About Me</small>
+				Skills
+			</h3>
+			<div class="holder-blue">
+				<div class="applications">
+					<h3 style="text-align: left;">Applications</h3>
+					<p>
+						Figma, Adobe suite, others
+					</p>
+				</div>
+				<div class="experience">
+					<h3 style="text-align: left;">Experience</h3>
+					<p>deloitte exp</p>
+				</div>
+				<div class="education">
+					<h3 style="text-align: left;">Education</h3>
+					<p>ur edu</p>
+				</div>
+				<div class="certificates">
+					<h3 style="text-align: left;">Certificates</h3>
+					<p>deloitte exp</p>
+				</div>
+			</div>
+		</section>
+		-->
+		<section id="works" class="work-experience container">
+			<h3 class=""casestudies>
+				Case Studies
+			</h3>
+			<div class="jobs">
+				<article>
+					<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
+					<div class="overlap-3">
+						<div class="text-wrapper-8">Redesign</div>
+						<p class="redesigned-the-app-s">
+						  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+						  and visually appealing.
+						</p>
+						<div class="frame"><div class="increased-engagement">Increased engagement&nbsp;&nbsp;by 45%</div></div>
+						<div class="increased-engagement-wrapper">
+						  <div class="increased-engagement">Strengthened user retention</div>
+						</div>
+					</div>
+					<a href="">
+					<div class="frame-2">
+						<img class="vector" src="imgs/vector.svg" />
+						<div class="text-wrapper-9">View Project</div>
+					</div>
+					</a>
+				</article>
+				<article>
+					<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
+					<div class="overlap-3">
+						<div class="text-wrapper-8">Redesign</div>
+						<p class="redesigned-the-app-s">
+						  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+						  and visually appealing.
+						</p>
+						<div class="frame"><div class="increased-engagement">Increased engagement&nbsp;&nbsp;by 45%</div></div>
+						<div class="increased-engagement-wrapper">
+						  <div class="increased-engagement">Strengthened user retention</div>
+						</div>
+					</div>
+					<a href="">
+					<div class="frame-2">
+						<img class="vector" src="imgs/vector.svg" />
+						<div class="text-wrapper-9">View Project</div>
+					</div>
+					</a>
+				</article>
+				<article>
+					<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
+					<div class="overlap-3">
+						<div class="text-wrapper-8">Redesign</div>
+						<p class="redesigned-the-app-s">
+						  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+						  and visually appealing.
+						</p>
+						<div class="frame"><div class="increased-engagement">Increased engagement&nbsp;&nbsp;by 45%</div></div>
+						<div class="increased-engagement-wrapper">
+						  <div class="increased-engagement">Strengthened user retention</div>
+						</div>
+					</div>
+					<a href="">
+					<div class="frame-2">
+						<img class="vector" src="imgs/vector.svg" />
+						<div class="text-wrapper-9">View Project</div>
+					</div>
+					</a>
+				</article>
+			</div>
+		</section>
+		
+		<!--
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+				</div>
+			</div>
+		</section>
+		-->
+		
+		<section id="illustrations" class="bento container">
+			<h3>
+				Illustration works
+			</h3>
+			<div class="bento-grid">
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-1.jpg" alt="BGCCI" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-2.jpg" alt="Churhview" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-3.jpg" alt="Harley" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-5.jpg" alt="Bunbury" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-6.jpg" alt="Running" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-7.jpg" alt="School" width="100%" />
+				</a>
+			</div>
+		</section>
+		<section id="testimonials" class="testimonials container">
+			<h3>
+				Testimonials
+			</h3>
+			<div class="testimonial">
+				<article>
+					<p>⭐⭐⭐⭐⭐</p>
+					<p>comments</p>
+					<h4>Name</h4>
+					<p>description</p>
+				</article>
+				<article>
+					<p>⭐⭐⭐⭐⭐</p>
+					<p>comments</p>
+					<h4>Name</h4>
+					<p>description</p>
+				</article>
+				<article>
+					<p>⭐⭐⭐⭐</p>
+					<p>comments</p>
+					<h4>Name</h4>
+					<p>description</p>
+				</article>
+			</div>
+		</section>
+		<section id="moreabme" class="moreaboutme">
+			<h3>
+				Learn more about me!
+			</h3>
+			<p style="text-align: center;">lorem ipsum</p>
+			<a href="">
+				<p style="text-align: center;color: black;border: 10px black;border-radius: 20px;padding: 10px;">About me</p>
+			</a>
+		</section>
+		<!--
+		<section class="chatbot container">
+			<h2>
+				<small>
+					Talk to me
+				</small>
+				Chatbot
+			</h2>
+			<div class="chatbot-blue">
+				<div class="chat-info">
+					<h3>Azure AI Chatbot</h3>
+					<p>I've put together a chatbot here which knows all my skills, work experience and has a copy of my CV/Resume. You can use it to ask questions about me to get a better idea of who I am and what I've done.</p>
+					<p>You can also download my resume here if you want to take a look at it.  I'm currently looking for new opportunities so if you have a project you think I'd be a good fit for, please get in touch!</p>
+					<a href="./Sample_Resume_Template.pdf" class="button black">Download Resume</a>
+				</div>
+				<div class="chat-box">
+					<div class="scroll-area">
+						<ul id="chat-log">
+							<li>
+								<span class="avatar bot">AI</span>
+								<div class="message">
+									Hi, I'm a friendly chatbot that lets you interactive with this portfolio and CV. How can I help?
+								</div>
+							</li>
+							<li>
+								<span class="avatar user">User</span>
+								<div class="message">
+									I have a question to ask you about this resume
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="chat-message">
+						<input type="text" placeholder="Hey Adrian, what skills are you best at?">
+						<button class="button black">Send</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		-->
+	</main>
+</body>
+</html>
+
+
+
+
