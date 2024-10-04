@@ -231,6 +231,9 @@ h1 {
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;	
 		}
+		.hello{
+			max-width: 90%;
+		}
 	}
 	.img-container img{
 		width: 100%;
@@ -256,9 +259,13 @@ h1 {
   				font-weight: 300;
   				color: #e3e1e1;
   				font-size: 70px;
+				
 			}
 			.intro{
   				color: #e3e1e1;
+			}
+			.banner-heading{
+				display: inline;
 			}
 			span {
 				@media (max-width:768px){
