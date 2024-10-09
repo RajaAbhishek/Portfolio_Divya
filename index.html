@@ -7,20 +7,31 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./styles.css">
-	<script src="./scripts.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link rel="icon" type="image/jpg" href="./imgs/dp.png">
 </head>
 <body>
 	<header>
 		<a href="#" class="logo-holder">
 			<!--<div class="logo">D</div>-->
-			<div class="logo-text">Divya</div>
+			<div class="logo-text" style="color: white;">Divya</div>
 		</a>
 		<nav>
 			<ul id="menu">
 				<li>
-					<a href="#home">About Me</a>
+					<a href="index_aboutme.html">About Me</a>
 				</li>
 				<li>
 					<a href="#works">Case Studies</a>
@@ -29,13 +40,13 @@
 					<a href="#about">About</a>
 				</li>-->
 				<li>
-					<a href="#illustrations">Illustrations</a>
+					<a href="index_illustrations.html">Illustrations</a>
 				</li>
 				<li>
 					<a href="#testimonials">Linkedin</a>
 				</li>
 				<li>
-					<a href="#testimonials">Resume</a>
+					<a href="#testimonials" class="resume_link">Resume</a>
 				</li>
 				<!--<li>
 					<a href="mailto:shek7373@gmail.com" class="button">Contact Me</a>
@@ -63,11 +74,34 @@
 			</div>
 		</section>
 		-->
-		<section id="about" class="hero container">
+		<section id="about" class="hero">
 			<!--<h3>
 				About
 			</h3>-->
-			<div class ="tiles">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="img-container">
+							<img src="./imgs/dp.png" class="" alt="Divya Boini" width="60%" height="auto" />
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="text-container">
+							<div>
+								<span class="hello">
+									Hello,
+								</span>
+								<span class="nice"> nice to meet you!</span>
+							</div>
+							<p class="intro">
+								Hello, I'm Divya, a UX designer who own a rare combination of artistic imagination and technological expertise. I've started an exciting path to further advance my skill by studying a Master's in Human-Computer Interaction and Design (HCD) after earning a Bachelor of Fine Arts and spending two enlightening years with Deloitte as a Creative Designer</span>
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- <div class ="tiles">
 				<div class="hero-yellow">
 					<img src="./imgs/dp.png" alt="Divya Boini" width="60%" height="auto" />
 				</div>
@@ -94,11 +128,11 @@
 								<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
 							</a>
 						</div>
-						-->
+						--
 					</div>
 				</div>
 				
-			</div>
+			</div> -->
 		</section>
 		<!--
 		<section id="skills" class="skills container">
@@ -128,71 +162,246 @@
 			</div>
 		</section>
 		-->
-		<section id="works" class="work-experience container">
-			<h3 class=""casestudies>
-				Case Studies
-			</h3>
-			<div class="jobs">
-				<article>
-					<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
-					<div class="overlap-3">
-						<div class="text-wrapper-8">Redesign</div>
-						<p class="redesigned-the-app-s">
-						  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
-						  and visually appealing.
-						</p>
-						<div class="frame"><div class="increased-engagement">Increased engagement&nbsp;&nbsp;by 45%</div></div>
-						<div class="increased-engagement-wrapper">
-						  <div class="increased-engagement">Strengthened user retention</div>
+		<section id="designtp" class="design-process">
+			<div class="container">
+				<div class="heading-row">
+					<h2>My Design Thinking Process</h2>
+				</div>
+				<div class="row logo-row">
+					<div class="col-lg-2 logo-container">
+						<div class="logo-circle">
+							<img src="./imgs/mdp-logo-1.svg" alt="">
 						</div>
 					</div>
-					<a href="">
-					<div class="frame-2">
-						<img class="vector" src="imgs/vector.svg" />
-						<div class="text-wrapper-9">View Project</div>
+					<div class="col-lg-1 arrow-container">
+						
+
+							<img src="./imgs/arrow_1.svg" class="arrow" alt="">
+
 					</div>
-					</a>
-				</article>
-				<article>
-					<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
-					<div class="overlap-3">
-						<div class="text-wrapper-8">Redesign</div>
-						<p class="redesigned-the-app-s">
-						  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
-						  and visually appealing.
-						</p>
-						<div class="frame"><div class="increased-engagement">Increased engagement&nbsp;&nbsp;by 45%</div></div>
-						<div class="increased-engagement-wrapper">
-						  <div class="increased-engagement">Strengthened user retention</div>
+					<div class="col-lg-2 logo-container">
+						<div class="logo-circle">
+							<img src="./imgs/mdp-logo-2.svg" alt="">
 						</div>
 					</div>
-					<a href="">
-					<div class="frame-2">
-						<img class="vector" src="imgs/vector.svg" />
-						<div class="text-wrapper-9">View Project</div>
+					<div class="col-lg-1 arrow-container">
+					
+
+						<img src="./imgs/arrow_2.svg" class="arrow" alt="">
+
 					</div>
-					</a>
-				</article>
-				<article>
-					<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
-					<div class="overlap-3">
-						<div class="text-wrapper-8">Redesign</div>
-						<p class="redesigned-the-app-s">
-						  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
-						  and visually appealing.
-						</p>
-						<div class="frame"><div class="increased-engagement">Increased engagement&nbsp;&nbsp;by 45%</div></div>
-						<div class="increased-engagement-wrapper">
-						  <div class="increased-engagement">Strengthened user retention</div>
+					<div class="col-lg-2 logo-container">
+						<div class="logo-circle">
+							<img src="./imgs/mdp-logo-3.svg" alt="">
 						</div>
 					</div>
-					<a href="">
-					<div class="frame-2">
-						<img class="vector" src="imgs/vector.svg" />
-						<div class="text-wrapper-9">View Project</div>
+					<div class="col-lg-1 arrow-container">
+				
+
+						<img src="./imgs/arrow_3.svg" class="arrow" alt="">
+
 					</div>
-					</a>
-				</article>
+					<div class="col-lg-2 logo-container">
+						<div class="logo-circle">
+							<img src="./imgs/mdp-logo-4.svg" alt="">
+						</div>
+					</div>
+					<div class="col-lg-1 arrow-container">
+					
+
+						<img src="./imgs/arrow_4.svg" class="arrow" alt="">
+
+					</div>
+					<div class="col-lg-2 logo-container">
+						<div class="logo-circle">
+							<img src="./imgs/mdp-logo-5.svg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row text-row">
+					
+					<div class="col-lg-2 logo-container">
+						<div class="text-container">
+							<h4>Emphatize</h4>
+							<p>User Research</p>
+							<p>User Interview</p>
+							<p>Entrant Analysis</p>
+						</div>
+					</div>
+					<div class="col-lg-1"></div>
+					<div class="col-lg-2 logo-container">
+					<div class="text-container">
+						<h4>Define</h4>
+						<p>User Persona</p>
+						<p>User Jouney Map</p>
+						<p>Goal Statement</p>
+						<p>Empathy Map</p>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-2 logo-container">
+				<div class="text-container">
+					<h4>Ideate</h4>
+					<p>Brainstorming</p>
+					<p>Card Sorting</p>
+					<p>User Flow</p>
+				</div>
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2 logo-container">
+			<div class="text-container">
+				<h4>Design</h4>
+				<p>Paper Wireframes</p>
+				<p>Visual Design</p>
+				<p>Prototype</p>
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-2 logo-container">
+		<div class="text-container">
+			<h4>Test</h4>
+			<p>Check Usability</p>
+			<p>Survey Insightw</p>
+			<p>Improvements</p>
+		</div>
+	</div>
+					
+				</div>
+			</div>
+		</section>
+		<section id="works" class="work-experience ">
+			<div class="container">
+				<h3 class="ciu">Crafting Intuitive User Experiences with a</h3>
+				<h3 class="hca">Human-Centered Approach</h3>
+				<p class="we-text">I design intuitive, user-centered digital experiences by combining research, wireframing, and prototyping. My case studies showcase how I’ve solved real-world problems through collaborative, human-centered design, enhancing both user satisfaction and business goals.</p>
+				<!--
+				<h3 class=""casestudies>
+					Case Studies
+				</h3>
+				-->
+				<div class="jobs">
+					<div class="article blue">
+						<div class="row ">
+							<div class="col-lg-4 text-container">
+								<img class="medibuddywithname img-fluid" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1"  />	
+								<h3 >UI/UX Case Study</h3>
+								
+								<p class="redesigned-the-app-s">
+									Redesigned the app's interface based on user feedback, making it more intuitive, easier to navigate, and visually appealing.
+								</p>
+								<p class="white-btn-text white-btn">Increased engagement  by 45%</p>
+								<p class="white-btn-text white-btn" >Strengthened user retention</p>
+								<a href="index_medibuddy.html" class="purple-btn">
+									<span><img src="./imgs/file.svg" alt=""></span><p>View Project</p>
+								</a>
+							</div>
+							<div class="col-lg-8">
+								<img src="./imgs/job-1.png" class="img-fluid" alt="">
+							</div>
+
+						</div>
+					</div>
+					<div class="article green">
+						<div class="row ">
+							<div class="col-lg-4 text-container">
+								<img class="medibuddywithname img-fluid" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1"  />	
+								<h3 >UI/UX Case Study</h3>
+								
+								<p class="redesigned-the-app-s" >
+								  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+								  and visually appealing.
+								</p>
+								<p class="white-btn-text white-btn" >Increased engagement  by 45%</p>
+								<p class="white-btn-text white-btn" >Strengthened user retention</p>
+								<a href="" class="purple-btn">
+									<span><img src="./imgs/file.svg" alt=""></span><p>View Project</p>
+								</a>
+							</div>
+							<div class="col-lg-8">
+								<img src="./imgs/job-1.png" class="img-fluid" alt="">
+							</div>
+
+						</div>
+					</div>
+					<!-- <div class="article orange">
+						<div class="row ">
+							<div class="col-lg-4 text-container">
+								<img class="medibuddywithname img-fluid" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1"  />	
+								<h3>Redesign</h3>
+								
+								<p class="redesigned-the-app-s">
+								  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+								  and visually appealing.
+								</p>
+								<div class="white-button">Increased engagement  by 45%</div>
+							</div>
+							<div class="col-lg-8">
+								<img src="./imgs/job-1.png" class="img-fluid" alt="">
+							</div>
+
+						</div>
+					</div> -->
+					<!-- <article>
+						<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
+						<div class="overlap-3">
+							<div class="text-wrapper-8">Redesign</div>
+							<p class="redesigned-the-app-s">
+							  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+							  and visually appealing.
+							</p>
+							<div class="frame"><div class="white-btn-text">Increased engagement&nbsp;&nbsp;by 45%</div></div>
+							<div class="white-btn-text-wrapper">
+							  <div class="white-btn-text">Strengthened user retention</div>
+							</div>
+						</div>
+						<a href="">
+						<div class="frame-2">
+							<img class="vector" src="imgs/vector.svg" />
+							<div class="text-wrapper-9">View Project</div>
+						</div>
+						</a>
+					</article>
+					<article>
+						<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
+						<div class="overlap-3">
+							<div class="text-wrapper-8">Redesign</div>
+							<p class="redesigned-the-app-s">
+							  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+							  and visually appealing.
+							</p>
+							<div class="frame"><div class="white-btn-text">Increased engagement&nbsp;&nbsp;by 45%</div></div>
+							<div class="white-btn-text-wrapper">
+							  <div class="white-btn-text">Strengthened user retention</div>
+							</div>
+						</div>
+						<a href="">
+						<div class="frame-2">
+							<img class="vector" src="imgs/vector.svg" />
+							<div class="text-wrapper-9">View Project</div>
+						</div>
+						</a>
+					</article>
+					<article>
+						<img class="medibuddywithname" src="./imgs/medibuddywithname-2.svg" alt="Work 1 - UX design1" width="100%" />	
+						<div class="overlap-3">
+							<div class="text-wrapper-8">Redesign</div>
+							<p class="redesigned-the-app-s">
+							  Redesigned the app&#39;s interface based on user feedback, making it more intuitive, easier to navigate,
+							  and visually appealing.
+							</p>
+							<div class="frame"><div class="white-btn-text">Increased engagement&nbsp;&nbsp;by 45%</div></div>
+							<div class="white-btn-text-wrapper">
+							  <div class="white-btn-text">Strengthened user retention</div>
+							</div>
+						</div>
+						<a href="">
+						<div class="frame-2">
+							<img class="vector" src="imgs/vector.svg" />
+							<div class="text-wrapper-9">View Project</div>
+						</div>
+						</a>
+					</article> -->
+				</div>
 			</div>
 		</section>
 		
@@ -223,7 +432,7 @@
 		</section>
 		-->
 		
-		<section id="illustrations" class="bento container">
+		<section id="illustrations" class="bento d-none container">
 			<h3>
 				Illustration works
 			</h3>
@@ -248,7 +457,45 @@
 				</a>
 			</div>
 		</section>
-		<section id="testimonials" class="testimonials container">
+		<!--
+		<section id="testimonials" class="testimonials">
+			<div class="container">
+				<div class="swiper mySwiper testimonial">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide">
+							<article>
+								<p>⭐⭐⭐⭐⭐</p>
+								<p>comments</p>
+								<h4>Name</h4>
+								<p>description</p>
+							</article>
+						</div>
+					  <div class="swiper-slide">
+						<article>
+							<p>⭐⭐⭐⭐⭐</p>
+							<p>comments</p>
+							<h4>Name</h4>
+							<p>description</p>
+						</article>
+					  </div>
+					  <div class="swiper-slide">
+						<article>
+							<p>⭐⭐⭐⭐⭐</p>
+							<p>comments</p>
+							<h4>Name</h4>
+							<p>description</p>
+						</article>
+					  </div>
+					 
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination"></div>
+				  </div>
+			</div>
+
+		</section>-->
+		<section id="testimonials" class="testimonials d-none container">
 			<h3>
 				Testimonials
 			</h3>
@@ -274,14 +521,19 @@
 			</div>
 		</section>
 		<section id="moreabme" class="moreaboutme">
-			<h3>
-				Learn more about me!
-			</h3>
-			<p style="text-align: center;">lorem ipsum</p>
-			<a href="">
-				<p style="text-align: center;color: black;border: 10px black;border-radius: 20px;padding: 10px;">About me</p>
-			</a>
+			<h4 style="color: white;text-align: center;">
+				Check out my Resume!
+			</h4>
+			<!--<p style="text-align: center;">lorem ipsum</p>-->
+			<div class="seperator"></div>
+			<div class="row">
+				
+				<a href="" class="purple-btn">
+					Download Resume
+				</a>
+			</div>
 		</section>
+		
 		<!--
 		<section class="chatbot container">
 			<h2>
@@ -322,6 +574,13 @@
 			</div>
 		</section>
 		-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="./scripts.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+		          <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+
 	</main>
 </body>
 </html>
